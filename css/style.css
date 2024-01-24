@@ -1,0 +1,648 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color:beige;
+   
+}
+
+.different-links{
+  height: 75px;
+  width: 65%;
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  background-color: beige;
+  justify-content: center;
+  
+ 
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    background-image: url(/images/HUGO_LOGO_red_RGB.png);
+    background-position: center;
+    background-size: contain;
+    margin-right: 50px;
+    
+    background-repeat: no-repeat;
+    
+
+}
+
+.Home{
+    height: 100px;
+    width: 100px;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.About-me{
+    height: 100px;
+    width: 100px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.Work{
+    height: 100px;
+    width: 100px;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Contact{
+    height: 100px;
+    width: 100px;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.left-link{
+    height: 75px;
+   
+}
+.see-my-work{
+  height: 75px;
+  width: 35%;
+  display: flex;
+  flex-direction: row-reverse; 
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: beige;
+  justify-content: center;  
+ 
+}
+
+.a1{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: gray;
+    border-radius: 30px;
+    border-style: solid;
+    
+}
+
+
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    backdrop-filter: blur(10px); 
+    list-style: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+.sidebar ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+}
+.sidebar li{
+    height: 50px;    
+}
+.sidebar a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.sidebar a:hover {
+    background-color: #f0f0f0;
+}
+.li{
+    display: none;
+    height: 75px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;   
+    list-style: none;
+    display: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.midden-block{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif; ;
+    justify-content: center;
+    background-color: beige;
+}
+.midden{
+    margin-top: 75px;
+    height: auto;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+}
+.blokken{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #91b083;
+}
+h1{
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.semi-block{
+    height: 140px;
+    width: 80px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 250px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #FBEDA1;
+}
+  
+.semi-circle {
+    width: 10rem;
+    height: 5rem;
+    background-color: #439846;
+    border-radius: 10rem 10rem 0 0;
+    transform: rotate(90deg);
+    margin-top: 50px;
+    margin-left: -36px;
+}
+.midden-fotoblock{
+    height: 500px ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.about-me{
+    height: 500px;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #91b083;
+}
+.text{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;   
+    justify-content: center;
+    margin-right: 100px;
+    background-color: blanchedalmond;
+}
+.foto{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 100px;
+    transform: rotate(-5deg);
+    background-color: antiquewhite;
+}
+.under-block{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: beige;
+}
+
+.foto-album{
+    height: auto;
+    width: 65%;
+    background-color:#91b083 ;
+}
+
+.foto2{
+    height: 500px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   justify-content: space-between;
+    
+    background-color: #91b083;
+}
+.foto3{
+    height: 500px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #91b083;
+}
+
+.foto4{
+    height: 500px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     justify-content: space-between;
+    background-color: #91b083;
+}
+.cirkel-foto{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-left: 50px;
+    background-color: #439846;
+}
+.text2{
+    height: 300px;
+    width: 400px;
+    margin-right: 50px;
+    background-color: blanchedalmond;
+}
+.cirkel-foto2{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-right: 50px;
+    background-color: #439846;
+}
+.text3{
+    height: 300px;
+    width: 400px;
+    margin-left: 50px;
+    background-color: blanchedalmond;
+}
+.cirkel-foto3{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-left: 50px;
+    background-color: #439846;
+}
+.text4{
+    height: 300px;
+    width: 400px;
+    margin-right: 50px;
+    background-color: blanchedalmond;
+}
+
+footer{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+
+.links{
+    height: 150px;
+    width: 65%;
+    background-color: #91b083;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.links-icons{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+
+}
+
+.yt{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: red;
+    background-image: url(/images/youtube.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Whatsapp{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: red;
+    background-image: url(/images/Whatsapp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.insta{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: red;
+    background-image: url(/images/Insta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.discord{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: red;
+    background-image: url(/images/discord.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    .Home{
+        display: none;
+    }
+    .About-me{
+        display: none;
+    }
+   .Contact{
+    display: none;
+   }
+   .Work{
+    display: none;
+   }
+   .a1{
+    display: none;
+   }
+   .menu-items{
+    display: none;
+   } 
+   .sidebar{
+    display: flex;
+   }
+   .bars{
+    display: flex;
+   }
+   .li{
+    display: flex;
+   }
+   .midden-block{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+   }
+   .midden{
+    width: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .blokken{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-top: -100px;
+    flex-direction: column;
+   
+   }
+   .semi-circle{
+    height: 50px;
+    width: 50px;    
+    margin-left: 0px;
+    }
+
+   
+   h1{
+    height: 10px;
+    width: 10px;
+    font-size: 30px;
+    margin-top: -10px;
+}
+   .semi.block{
+    height: 5px;
+    width: 5px;
+
+   }
+   .midden-fotoblock{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    
+
+   }
+   .about-me{
+    height: 450px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+  
+
+   }
+   .foto{
+   height: 200px;
+   width: 300px;
+   margin-top: 100px;
+   transform: rotate(85deg);
+   margin-left: 0px;
+
+   }
+   .text{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+   
+
+   }
+   .under-block{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+   
+
+   }
+   .foto-album{
+    height: auto;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .foto2{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+   .cirkel-foto{
+   height: 200px;
+   width: 200px;
+   margin-left: 2px;
+
+
+   }
+   .text2{
+    height: 150px;
+    width: 300px;
+    margin-left: 50px;
+ 
+
+   }
+   .foto3{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    
+
+   }
+   .cirkel-foto2{
+    height: 200px;
+    width: 200px;
+    margin-right: 2px;
+ 
+   }
+   .text3{
+    height: 150px;
+    width: 300px;
+    margin-right: 50px;
+
+   }
+   .foto4{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    
+
+   }
+   .cirkel-foto3{
+    height: 200px;
+    width: 200px;
+    margin-left: 2px;
+ 
+
+   }
+   .text4{
+    height: 150px;
+    width: 300px;
+    margin-left: 50px;
+   }
+   footer{
+    height: 100px;
+    width: auto;
+   }
+
+   .links{
+    height: 150px;
+    width: 85%;
+    background-color: #91b083;
+   }
+    .links-icons{
+        height: 100px;
+        width: 85%;
+        background-color: #91b083;
+
+    }
+
+    .yt{
+        height: 40px;
+        width: 40px;
+       
+    }
+    .Whatsapp{
+        height: 40px;
+        width: 40px;
+       
+    }
+    .insta{
+        height: 40px;
+        width: 40px;
+       
+    }
+    .discord{
+        height: 40px;
+        width: 40px;
+       
+    }
+    
+
+
+}

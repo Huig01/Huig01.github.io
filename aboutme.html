@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="different-links">
+         <div class="logo">
+            <img class="mySlides"  scr="">     </div>
+         <div class="Home">
+            <a>
+                Home
+            </a>
+         </div>
+         <div class="Work">
+            <a>
+                Work
+            </a>
+         </div>
+         <div class="About-me">
+            <a>
+                About me
+            </a>
+         </div>
+         <div class="Contact">
+            <a>
+                Contact
+            </a>
+         </div>         
+        </div>
+        <div class="see-my-work">
+            <div class="a1">
+                <a>
+                    See my Work
+                </a>
+            </div>
+        </div>
+        <div class="li">
+            <li onclick = showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </div>     
+    </nav>
+    <div class="line2">
+        
+    </div>
+    <ul class="sidebar">
+        <li onclick = hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">See my Work</a></li>
+    </ul>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }       
+    </script>
+    <div class="midden-block">
+        <div class="middenlinks2">
+            <div class="foto2">
+                <div class="Slides">
+                    <img class="mySlides" src="/images/hmmmmmmmmmm_markiplier_face_by_opssham_d98tdze-375w-2x.jpg" height="400px" width="600px">
+                    <img class="mySlides" src="/images/HUGO_LOGO_red_RGB.png" height="400px" width="600px">
+                    <img class="mySlides" src="/images/logo_social_sharing_hugo.png" height="400px" width="600px">
+                    <img class="mySlides" src="" style="width:100%">
+                  
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                  </div>                  
+                  <script>
+                  var slideIndex = 1;
+                  showDivs(slideIndex);
+                  
+                  function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                  }
+                  
+                  function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = x.length}
+                    for (i = 0; i < x.length; i++) {
+                      x[i].style.display = "none";  
+                    }
+                    x[slideIndex-1].style.display = "block";  
+                  }
+                  </script>
+            </div>            
+        </div>
+        <div class="middenrechts2">           
+        </div>
+    </div>
+    
+
+  
+</body>
+</html>
