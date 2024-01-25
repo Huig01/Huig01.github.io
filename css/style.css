@@ -348,7 +348,12 @@ h1{
 .text2{
     height: 300px;
     width: 400px;
-    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;  
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
     border-radius: 20px;
     background-color: blanchedalmond;
 }
@@ -374,7 +379,12 @@ h1{
 .text3{
     height: 300px;
     width: 400px;
-    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;  
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
     border-radius: 20px;
     background-color: blanchedalmond;
 }
@@ -400,7 +410,12 @@ h1{
 .text4{
     height: 300px;
     width: 400px;
-    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;  
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
     border-radius: 20px;
     background-color: blanchedalmond;
 }
@@ -565,6 +580,7 @@ footer{
    width: 300px;
    margin-top: 50px;    
    margin-left:0%;
+   margin-bottom: 5px;
    background-size: cover;
    background-position: 0%;
    }
@@ -572,6 +588,8 @@ footer{
    .text{
     height: auto;
     width: auto;
+    margin-right: 5px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -602,23 +620,27 @@ footer{
     align-items: center;
     justify-content: center;
     justify-content: space-around;
-    
-}
+    }
+
    .cirkel-foto{
    height: 200px;
    width: 200px;
    margin-left: 2px;
-   background-image: url(/images/Family.jpg);
-  
+   background-image: url(/images/Family.jpg);  
    background-repeat: no-repeat;
    background-position: 0%;
    background-size: cover;
    }
    
    .text2{
-    height: 150px;
-    width: 300px;
-    margin-left: 50px;
+    height: auto;
+    width: auto;
+    margin-right: 5px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
    .foto3{
     height: 500px;
@@ -636,9 +658,20 @@ footer{
    }
 
    .text3{
-    height: 150px;
-    width: 300px;
-    margin-right: 50px;
+    height: auto;
+    width: auto;
+    margin-left: 5px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .a3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
    }
    
    .foto4{
@@ -649,7 +682,17 @@ footer{
     justify-content: center;
     justify-content: space-around;
    }
-
+   .text4{
+    height: auto;
+    width: auto;
+    margin-right: 50px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   
    .cirkel-foto3{
     height: 200px;
     width: 200px;
