@@ -31,11 +31,8 @@ nav{
     background-image: url(/images/HUGO_LOGO_red_RGB.png);
     background-position: center;
     background-size: contain;
-    margin-right: 50px;
-    
+    margin-right: 50px;    
     background-repeat: no-repeat;
-    
-
 }
 
 .Home{
@@ -77,10 +74,12 @@ nav{
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
 }
+
 .left-link{
     height: 75px;
    
 }
+
 .see-my-work{
   height: 75px;
   width: 35%;
@@ -102,11 +101,8 @@ nav{
     align-items: center;
     border-color: gray;
     border-radius: 30px;
-    border-style: solid;
-    
+    border-style: solid;    
 }
-
-
 
 .sidebar{
     position: fixed;
@@ -122,9 +118,9 @@ nav{
     list-style: none;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start;
-    
+    justify-content: flex-start;    
 }
+
 .sidebar ul{
     width: 100%;
     list-style: none;
@@ -132,9 +128,11 @@ nav{
     justify-content: flex-end;
     align-items: center;  
 }
+
 .sidebar li{
     height: 50px;    
 }
+
 .sidebar a{
     height: 100%;
     padding: 0 30px;
@@ -147,6 +145,7 @@ nav{
 .sidebar a:hover {
     background-color: #f0f0f0;
 }
+
 .li{
     display: none;
     height: 75px;
@@ -158,9 +157,9 @@ nav{
     background-color: beige;   
     list-style: none;
     display: none;
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Montserrat', sans-serif;    
 }
+
 .line2{
     height: 0.5px;
     width: 100%;
@@ -177,6 +176,7 @@ nav{
     justify-content: center;
     background-color: beige;
 }
+
 .midden{
     margin-top: 75px;
     height: auto;
@@ -186,6 +186,7 @@ nav{
     justify-content: center;
     background-color: black;
 }
+
 .blokken{
     height: 200px;
     width: 100%;
@@ -193,6 +194,7 @@ nav{
     flex-direction: row;
     background-color: #91b083;
 }
+
 h1{
     height: 200px;
     width: 500px;
@@ -203,6 +205,7 @@ h1{
     align-items: center;
     justify-content: center;
 }
+
 .semi-block{
     height: 140px;
     width: 80px;
@@ -225,6 +228,7 @@ h1{
     margin-top: 50px;
     margin-left: -36px;
 }
+
 .midden-fotoblock{
     height: 500px ;
     width: 100%;
@@ -234,6 +238,7 @@ h1{
     align-items: center;
     background-color: beige;
 }
+
 .about-me{
     height: 500px;
     width: 65%;
@@ -244,6 +249,7 @@ h1{
     align-items: center;
     background-color: #91b083;
 }
+
 .text{
     height: 200px;
     width: 400px;
@@ -253,6 +259,7 @@ h1{
     margin-right: 100px;
     background-color: blanchedalmond;
 }
+
 .foto{
     height: 400px;
     width: 300px;
@@ -261,6 +268,7 @@ h1{
     transform: rotate(-5deg);
     background-color: antiquewhite;
 }
+
 .under-block{
     height: auto;
     width: 100%;
@@ -288,6 +296,7 @@ h1{
     
     background-color: #91b083;
 }
+
 .foto3{
     height: 500px;
     width: 100%;
@@ -309,6 +318,7 @@ h1{
      justify-content: space-between;
     background-color: #91b083;
 }
+
 .cirkel-foto{
     height: 350px;
     width: 350px;
@@ -316,12 +326,14 @@ h1{
     margin-left: 50px;
     background-color: #439846;
 }
+
 .text2{
     height: 300px;
     width: 400px;
     margin-right: 50px;
     background-color: blanchedalmond;
 }
+
 .cirkel-foto2{
     height: 350px;
     width: 350px;
@@ -329,12 +341,14 @@ h1{
     margin-right: 50px;
     background-color: #439846;
 }
+
 .text3{
     height: 300px;
     width: 400px;
     margin-left: 50px;
     background-color: blanchedalmond;
 }
+
 .cirkel-foto3{
     height: 350px;
     width: 350px;
@@ -342,6 +356,7 @@ h1{
     margin-left: 50px;
     background-color: #439846;
 }
+
 .text4{
     height: 300px;
     width: 400px;
@@ -375,9 +390,6 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
-   
-
 }
 
 .yt{
@@ -389,6 +401,7 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .Whatsapp{
     height: 60px;
     width: 60px;
@@ -399,6 +412,7 @@ footer{
     background-repeat: no-repeat;
    
 }
+
 .insta{
     height: 60px;
     width: 60px;
@@ -409,6 +423,7 @@ footer{
     background-repeat: no-repeat;
     background-position: 50%;
 }
+
 .discord{
     height: 60px;
     width: 60px;
@@ -418,10 +433,6 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;    
 }
-
-
-
-
 
 @media only screen and (max-width: 768px){
     .Home{
@@ -467,7 +478,7 @@ footer{
     flex-direction: column;
     align-items: center;
    }
-   
+
    .blokken{
     width: auto;
     height: auto;
@@ -568,21 +579,20 @@ footer{
     align-items: center;
     justify-content: center;
     justify-content: space-around;
-    
-
    }
+
    .cirkel-foto2{
     height: 200px;
     width: 200px;
     margin-right: 2px;
- 
    }
+
    .text3{
     height: 150px;
     width: 300px;
     margin-right: 50px;
-
    }
+   
    .foto4{
     height: 500px;
     display: flex;
@@ -596,38 +606,46 @@ footer{
     height: 200px;
     width: 200px;
     margin-left: 2px;
-}
+   }
+
    .text4{
     height: 150px;
     width: 300px;
     margin-left: 50px;
    }
+
    footer{
     height: 100px;
     width: auto;
    }
+
    .links{
     height: 150px;
     width: 85%;
     background-color: #91b083;
    }
+
     .links-icons{
         height: 100px;
         width: 85%;
         background-color: #91b083;
     }
+
     .yt{
         height: 40px;
         width: 40px;      
     }
+
     .Whatsapp{
         height: 40px;
         width: 40px;     
     }
+    
     .insta{
         height: 40px;
         width: 40px;    
     }
+    
     .discord{
         height: 40px;
         width: 40px;     
