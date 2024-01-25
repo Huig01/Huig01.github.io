@@ -467,21 +467,21 @@ footer{
     flex-direction: column;
     align-items: center;
    }
+   
    .blokken{
     width: auto;
     height: auto;
     display: flex;
     margin-top: -100px;
-    flex-direction: column;
-   
+    flex-direction: column;   
    }
+
    .semi-circle{
     height: 50px;
     width: 50px;    
     margin-left: 0px;
     }
 
-   
    h1{
     height: 10px;
     width: 10px;
@@ -491,32 +491,30 @@ footer{
    .semi.block{
     height: 5px;
     width: 5px;
-
    }
+
    .midden-fotoblock{
     height: auto;
     width: auto;
     display: flex;
     flex-direction: column;
-    
-
    }
+
    .about-me{
     height: 450px;
     width: 330px;
     display: flex;
     flex-direction: column;
-  
-
    }
+
    .foto{
    height: 200px;
    width: 300px;
    margin-top: 100px;
    transform: rotate(85deg);
    margin-left: 0px;
-
    }
+
    .text{
     height: auto;
     width: auto;
@@ -524,10 +522,8 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
-   
-
    }
+
    .under-block{
     height: auto;
     width: auto;
@@ -535,10 +531,8 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
-   
-
    }
+
    .foto-album{
     height: auto;
     width: 330px;
@@ -560,16 +554,13 @@ footer{
    height: 200px;
    width: 200px;
    margin-left: 2px;
-
-
    }
+   
    .text2{
     height: 150px;
     width: 300px;
     margin-left: 50px;
- 
-
-   }
+}
    .foto3{
     height: 500px;
     display: flex;
@@ -599,16 +590,13 @@ footer{
     align-items: center;
     justify-content: center;
     justify-content: space-around;
-    
-
    }
+
    .cirkel-foto3{
     height: 200px;
     width: 200px;
     margin-left: 2px;
- 
-
-   }
+}
    .text4{
     height: 150px;
     width: 300px;
@@ -618,7 +606,6 @@ footer{
     height: 100px;
     width: auto;
    }
-
    .links{
     height: 150px;
     width: 85%;
@@ -628,28 +615,22 @@ footer{
         height: 100px;
         width: 85%;
         background-color: #91b083;
-
     }
-
     .yt{
         height: 40px;
-        width: 40px;
-       
+        width: 40px;      
     }
     .Whatsapp{
         height: 40px;
-        width: 40px;
-       
+        width: 40px;     
     }
     .insta{
         height: 40px;
-        width: 40px;
-       
+        width: 40px;    
     }
     .discord{
         height: 40px;
-        width: 40px;
-       
+        width: 40px;     
     }
     
 
