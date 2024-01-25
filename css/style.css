@@ -161,6 +161,12 @@ nav{
     font-family: 'Montserrat', sans-serif;
     
 }
+.line2{
+    height: 0.5px;
+    width: 100%;
+    background-color: black;
+    
+}
 
 .midden-block{
     height: auto;
@@ -445,10 +451,14 @@ footer{
    .li{
     display: flex;
    }
+   .line2{
+       display: none;
+   }
    .midden-block{
     display: flex;
     height: auto;
     flex-direction: column;
+    background-color: beige;
    }
    .midden{
     width: auto;
