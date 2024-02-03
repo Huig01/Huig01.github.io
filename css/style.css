@@ -21,8 +21,6 @@ nav{
   align-items: center;
   background-color: beige;
   justify-content: center;
-  
- 
 }
 
 .logo{
@@ -33,6 +31,9 @@ nav{
     background-size: contain;
     margin-right: 50px;    
     background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
 }
 
 .Home{
@@ -305,8 +306,7 @@ h1{
     display: flex;
     flex-direction: row;
     align-items: center;
-   justify-content: space-between;
-    
+   justify-content: space-between;    
     background-color: #91b083;
 }
 
@@ -489,6 +489,297 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;    
 }
+
+.midden-block2{
+    height: 790px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif; ;
+    justify-content: center;
+    background-color: beige;
+}
+
+
+.cirkel-foto4{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-left: 50px;
+    background-image: url(/images/family3JPG.JPG);    
+    background-repeat: no-repeat;
+    background-position: 8%;
+    display: inline-block;
+    background-size: cover;
+    background-color: #439846;
+}
+
+
+.foto5{
+    height: 500px;
+    width: 60%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    align-items: center;
+     justify-content: space-between;
+    background-color: #91b083;
+}
+
+
+.text5{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;  
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+}
+.a5{
+    height: 200px;
+    width: 270px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.a6{
+    height: 200px;
+    width: 270px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.cirkel-foto5{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-left: 50px;
+    background-image: url(/images/Hobby.JPG);    
+    background-repeat: no-repeat;    
+    background-size: cover;   
+    background-color: #439846;
+}
+.midden-block3{
+    height: 790px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif; ;
+    justify-content: center;
+    background-color: beige;
+}
+
+.text6{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;  
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+}
+
+.foto6{
+    height: 500px;
+    width: 60%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    align-items: center;
+     justify-content: space-between;
+    background-color: #91b083;
+}
+
+.midden-block4{
+    height: 790px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif; ;
+    justify-content: center;
+    background-color: beige;
+}
+
+
+.foto7{
+    height: 500px;
+    width: 60%;
+    margin-top: 40px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #91b083;
+}
+
+.cirkel-foto6{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-right: 50px;
+    background-image: url(/images/Afbeelding2.png);    
+    background-repeat: no-repeat;    
+    background-size: cover;  
+    background-color: #439846;
+}
+
+.text7{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;  
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+}
+
+.a7{
+    height: 200px;
+    width: 270px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.midden-block5{
+    height: 790px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif; 
+    justify-content: center;
+    background-color: beige;
+}
+
+.email-block{
+    height: 700px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #91b083;
+}
+
+.your-email{
+    height: 80px;
+    width: 500px;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #638453;
+}
+
+.text-email{
+    height: 300px;
+    width: 500px;
+    margin-top: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    font-family: 'Open Sans', sans-serif;
+    background-color: #638453;
+}
+
+.a8{
+    height: 20px;
+    width: 20px;
+    
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.a9{
+    height: 20px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.links2{
+    height: 150px;
+    width: 100%;
+    margin-top: 15px;
+    background-color: #91b083;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.links-icons2{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.yt{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: red;
+    background-image: url(/images/youtube.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Whatsapp{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: red;
+    background-image: url(/images/Whatsapp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.insta{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: red;
+    background-image: url(/images/Insta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.discord{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: red;
+    background-image: url(/images/discord.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+
+
+
+
+
 
 @media only screen and (max-width: 768px){
     .Home{
